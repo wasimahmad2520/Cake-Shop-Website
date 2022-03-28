@@ -1,11 +1,10 @@
 <?php
 //<!--========== PHP CONNECTION TO DATABASE ==========-->
-    $host = "localhost";
-    $username = "root";
-    // $pass = "malako123";
-    $pass = "";
+    $host = "10.0.2.4";
+    $username = "wasimahmad$4";
+    $pass = "Wasimahmad$4";
 
-    $dbname = "cakeshop";
+    $dbname = "ecommerce";
     //create connection
     $conn = mysqli_connect($host, $username, $pass, $dbname);
     //check connection
