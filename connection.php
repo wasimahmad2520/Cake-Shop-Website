@@ -1,7 +1,7 @@
 <?php
 //<!--========== PHP CONNECTION TO DATABASE ==========-->
     $host = "10.0.2.4";
-    $username = "wasimahmad$4";
+    $username = "wasimahmad";
     $pass = "Wasimahmad$4";
 
     $dbname = "ecommerce";
