@@ -1,6 +1,6 @@
 <?php
 //<!--========== PHP CONNECTION TO DATABASE ==========-->
-    $host = "10.0.2.4";
+    $host = "10.0.2.244";
     $username = "wasimahmad";
     $pass = "Wasimahmad$4";
 
