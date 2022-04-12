@@ -1,8 +1,8 @@
 <?php
 //<!--========== PHP CONNECTION TO DATABASE ==========-->
-    $host = "10.0.2.244";
+    $host = "10.0.2.238";
     $username = "wasimahmad";
-    $pass = "Wasimahmad$4";
+    $pass = "Wasimahmad$$%4";
 
     $dbname = "ecommerce";
     //create connection
