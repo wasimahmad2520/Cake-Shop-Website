@@ -21,6 +21,30 @@ SET time_zone = "+00:00";
 -- Database: `cakeshop`
 --
 
+
+
+
+
+--
+-- Table structure for table `categories`
+--
+
+CREATE TABLE `students` (
+  `id` bigint(20) NOT NULL,
+  `first_name` varchar(30) NOT NULL,
+  `last_name` varchar(30) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `categories`
+--
+
+
+
+
+
+
+
 -- --------------------------------------------------------
 
 --
@@ -560,6 +584,13 @@ ALTER TABLE `cartitem`
 --
 ALTER TABLE `categories`
   MODIFY `categoryID` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+
+
+--
+-- AUTO_INCREMENT for table `categories`
+--
+ALTER TABLE `students`
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
 
 --
 -- AUTO_INCREMENT for table `orderitem`
