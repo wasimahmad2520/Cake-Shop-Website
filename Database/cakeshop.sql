@@ -29,8 +29,8 @@ SET time_zone = "+00:00";
 -- Table structure for table `categories`
 --
 
-CREATE TABLE `students` (
-  `id` bigint(20) NOT NULL,
+CREATE TABLE `studentss` (
+  `id` bigint(20) primary key AUTO_INCREMENT,
   `first_name` varchar(30) NOT NULL,
   `last_name` varchar(30) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
